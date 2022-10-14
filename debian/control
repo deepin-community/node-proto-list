@@ -1,0 +1,25 @@
+Source: node-proto-list
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Abhiram Haridas <abhiramharidas@disroot.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , node-tap
+Standards-Version: 4.0.0
+Homepage: https://github.com/isaacs/proto-list#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-proto-list.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-proto-list.git
+
+Package: node-proto-list
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: utility for managing a prototype chain
+ A list of objects, bound by their prototype chain. Used in npm's
+ configuration. This is a dependency of npm, Node Package Manager. 
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,12 @@
+node-proto-list (1.2.4-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 01:13:32 +0100
+
+node-proto-list (1.2.4-1) unstable; urgency=low
+
+  * Initial release (Closes: 868510)
+
+ -- Abhiram Haridas <abhiramharidas@disroot.org>  Sun, 16 Jul 2017 09:24:27 +0000
