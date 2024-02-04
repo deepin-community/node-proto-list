@@ -1,5 +1,0 @@
-Tests: require
-Depends: node-proto-list
-
-Test-Command: tap test/*.js
-Depends: @, node-tap
